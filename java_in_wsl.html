@@ -1,0 +1,14 @@
+<h1>Guide to install java in wsl debian/ubuntu</h1>  <br/>
+<p> Its very simple, only you need to do is download from internet using CURL, and build with dpkg.<br/>
+open 
+</p>
+<code>
+sudo apt update<br/>
+sudo apt install curl<br/>
+</code>
+<p>Then you to openJDK website and copy the URL from dep file download
+  </p>
+<code>
+curl -o  https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb<br/>
+dpkg -i jdk-21_linux-x64_bin.deb
+</code>
